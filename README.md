@@ -1,6 +1,5 @@
 
 # String-Pattern-Matching-Algorithm<br>
-This program implement the pattern matching algorithm
 
 Authored by Shahar Amram
 
