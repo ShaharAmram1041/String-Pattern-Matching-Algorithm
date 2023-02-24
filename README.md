@@ -1,13 +1,14 @@
 
 # String-Pattern-Matching-Algorithm<br>
+This program implement the pattern matching algorithm
+
 Authored by Shahar Amram
 
 ## ==Description==
 
-The program is pattern matching algorithm.<br>
-This program implement the pattern matching algorithm.<br>
-when we do search for a string ot text pattern matching algorithm used to show the search result, that mean if we found the wanted pattern.<br>
-the time complexity of the algorithm is linear.<br>
+String pattern matching algorithms are very useful for several purposes, like simple search for a pattern in a text or looking for attacks with predefined signatures.<br>
+This program implement a dictionary-matching algorithm that locates elements of a finite set of strings (the "dictionary") within an input text. It matches all patterns "at once", so the complexity of the algorithm is linear in the length of the patterns plus the length of the searched text plus the number of output matches. <br>
+The algorithm matches multiple patterns simultaneously, by first constructing a Deterministic Finite Automaton (DFA) representing the patterns set, and then, with this DFA on its disposal, processing the text in a single pas. <br>
 
 program contain 2 files:
 
